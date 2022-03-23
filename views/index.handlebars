@@ -1,0 +1,22 @@
+{{!-- <form class="d-flex justify-content-end">
+  <a href="/about">
+    <button class="btn btn-light active me-2" type="button" name="aboutBtn">About</button>
+  </a>
+  <a href="/protfolio">
+    <button class="btn btn-light active me-2" type="button">Protfolio </button>
+  </a>
+  <a href="/contact">
+    <button class="btn btn-light active me-2" type="button">Contact</button>
+  </a>
+</form> --}}
+
+  <form class="d-flex justify-content-end" id="navbar-btn">
+    {{#each configs}}
+    <a href="/{{ this.id }}">
+      <button class="btn {{this.type}} me-2" type="button">{{this.Msg}}</button>
+    </a>
+    {{/each}}  
+  </form>
+</nav>
+
+<h1>{{show}}</h1>

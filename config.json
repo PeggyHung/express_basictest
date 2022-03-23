@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "id": "about",
+      "Msg": "About",
+      "type": "btn-light"
+    },
+    {
+      "id": "protfolio",
+      "Msg": "Protfolio",
+      "type": "btn-light"
+    },
+    {
+      "id": "contact",
+      "Msg": "Contact",
+      "type": "btn-light"
+    }
+  ]
+}
